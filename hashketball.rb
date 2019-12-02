@@ -10,7 +10,15 @@ def game_hash
 end
 
 
-
+fetch(some_url) {
+  header: {
+    "Content-Type": "application/json"
+    
+  }, 
+  body: {
+    
+  }
+}
 
 
 
